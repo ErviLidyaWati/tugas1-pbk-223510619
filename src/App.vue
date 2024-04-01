@@ -44,7 +44,7 @@
       </div>
 
       <div class="section">
-        <h2 class="section-title">Pengalaman Kerja</h2>
+        <h2 class="section-title">Prestasi Akademik</h2>
         <div class="timeline">
           <div v-for="(experience, index) in experienceList" :key="index" class="event">
             <div class="event-title">{{ experience.title }}</div>
@@ -91,20 +91,20 @@ export default {
       ],
       experienceList: [
         {
-          title: 'Frontend Developer',
-          subtitle: 'Perusahaan X, Kota Contoh',
-          date: '2020 - Sekarang',
+          title: 'Desain Flayer',
+          subtitle: 'Universitas Islma Riau, Kota Pekanbaru',
+          date: '2023',
         },
         {
-          title: 'Internship Web Developer',
-          subtitle: 'Perusahaan Y, Kota Contoh',
-          date: '2019 - 2020',
+          title: 'Karya Tulis Ilmiah',
+          subtitle: 'Universitas Islma Riau, Kota Pekanbaru',
+          date: '2023',
         },
       ],
       projectsList: [
         {
           title: 'Business Plan',
-          description: 'Perancangan Bisnis Makanan Sweet Mochi',
+          description: 'Perancangan Bisnis Makanan ',
           date: '2023',
         },
         {
@@ -114,7 +114,7 @@ export default {
         },
         {
           title: 'Aplikasi Mobile Kesehatan Hewan',
-          description: 'Pembuatan aplikasi mobile untuk Kesehatan Hewan',
+          description: 'Perancangan aplikasi mobile untuk Kesehatan Hewan',
           date: '2023',
         },
       ],
